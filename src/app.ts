@@ -1,17 +1,21 @@
-import cors from "cors";
-import express, { Application, Request, Response } from "express";
+import cors from 'cors'
+import express, { Application, Request, Response } from 'express'
+import usersRouter from './app/modules/users/users.route'
 
-const app: Application = express();
-app.use(cors());
+const app: Application = express()
+app.use(cors())
 
-//purser
+//parser
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+
+//application route
+app.use('/api/v1/users/', usersRouter)
 
 //for testing
-app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World!");
-});
+app.get('/', async (req: Request, res: Response) => {
+  res.send('Database Connected')
+})
 
-export default app;
+export default app
