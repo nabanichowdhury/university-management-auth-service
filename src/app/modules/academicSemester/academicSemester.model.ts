@@ -13,13 +13,16 @@ const academicSemesterSchema = new Schema<
 >(
   {
     title: { type: String, required: true, enum: ['Spring', 'Autumn', 'Fall'] },
-    year: { type: Number, required: true },
+    year: { type: String, required: true },
     code: { type: String, required: true, enum: ['01', '02', '03'] },
     startMonth: { type: String, required: true, enum: academicSemesterMonth },
     endMonth: { type: String, required: true, enum: academicSemesterMonth },
   },
   {
     timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
   }
 );
 //handling same year and same semester

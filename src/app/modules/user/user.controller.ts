@@ -19,7 +19,6 @@ const createUser = catchAsync(
       message: 'User is created',
       data: result,
     });
-    next();
   }
 );
 
