@@ -31,6 +31,7 @@ async function bootstrap() {
     }
   });
 }
+
 bootstrap();
 
 process.on('SIGTERM', err => {

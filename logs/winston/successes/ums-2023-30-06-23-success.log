@@ -1,0 +1,84 @@
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:00:08.200Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:00:08.215Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:00:19.995Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:00:20.008Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:15:45.270Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:15:45.287Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:16:03.940Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:16:03.956Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:26:18.710Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:26:18.731Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:26:42.421Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:26:42.442Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:28:13.273Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-30T17:28:13.291Z'
+}

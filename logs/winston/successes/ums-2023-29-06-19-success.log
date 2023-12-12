@@ -1,0 +1,36 @@
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-29T13:12:58.629Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-29T13:12:58.644Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-29T13:54:02.084Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-29T13:54:02.098Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-29T13:54:24.731Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'university Auth Service',
+  timestamp: '2023-06-29T13:54:24.742Z'
+}

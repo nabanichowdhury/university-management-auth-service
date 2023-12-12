@@ -11,6 +11,7 @@ import { AcademicFacultyService } from './academicFaculty.service';
 const createAcademicFaculty = catchAsync(
   async (req: Request, res: Response) => {
     const { ...academicFaculty } = req.body;
+
     const result = await AcademicFacultyService.createAcademicFaculty(
       academicFaculty
     );
@@ -26,6 +27,8 @@ const createAcademicFaculty = catchAsync(
 
 const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, academicFacultiesFilterableField);
+  console.log(req.headers.authorization);
+  console.log(req.user);
 
   const paginationOptions = pick(req.query, paginationField);
 
